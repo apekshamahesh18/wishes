@@ -1,0 +1,48 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffe4e1;
+    text-align: center;
+    color: #8e3b46;
+    margin: 0;
+    padding: 0;
+}
+
+/* Landing Page */
+#landing {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background-color: #ffccd5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    background-color: #ff8bbd;
+    border: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+/* Hidden Sections */
+.hidden {
+    display: none;
+}
+
+/* Love Story Timeline */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    background-color: #ffb6c1;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 10px;
+}
