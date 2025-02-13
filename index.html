@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valentine's Day Surprise</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <!-- Landing Page -->
+    <section id="landing">
+        <div class="hearts"></div>
+        <h1>Welcome, My Love ❤️</h1>
+        <button id="startBtn">Start the Journey</button>
+    </section>
+
+    <!-- Quiz Section -->
+    <section id="quiz" class="hidden">
+        <h2>Quiz: How Well Do You Know Us?</h2>
+        <p id="question"></p>
+        <input type="text" id="answer">
+        <button onclick="checkAnswer()">Submit</button>
+    </section>
+
+    <!-- Timeline -->
+    <section id="timeline" class="hidden">
+        <h2>Our Love Story</h2>
+        <ul>
+            <li>9th Grade - First met and became friends.</li>
+            <li>Lost Connection - Drifted apart for a few years.</li>
+            <li>Reunited - Became best friends again.</li>
+            <li>Love Story Begins - Friendship turned into love.</li>
+            <li>Officially Together - 14th December 2023.</li>
+            <li>First Meeting - 6th January 2024.</li>
+            <li>First Kiss - At Lassi Shop, 6th January 2024.</li>
+            <li>First Gift - A cute little purple puppy.</li>
+        </ul>
+    </section>
+
+    <!-- Playlist -->
+    <section id="playlist" class="hidden">
+        <h2>Our Special Playlist</h2>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/_YRZ0jON6Pk?si=4HLUKZdiX2A_8Lgp" frameborder="0" allowfullscreen></iframe>
+    </section>
+
+    <!-- Countdown Timer -->
+    <section id="countdown" class="hidden">
+        <h2>Countdown to Our Special Day</h2>
+        <p id="timer"></p>
+    </section>
+
+    <!-- Secret Love Note -->
+    <section id="secret-note" class="hidden">
+        <h2>Secret Love Note</h2>
+        <button onclick="unlockNote()">Unlock</button>
+        <p id="love-note" class="hidden">You are my forever love! ❤️</p>
+    </section>
+
+    <!-- Virtual Gift -->
+    <section id="virtual-gift" class="hidden">
+        <h2>Your Virtual Gift 🎁</h2>
+        <p>Click below to receive a special digital gift.</p>
+        <a href="#" target="_blank">View Your Gift</a>
+    </section>
+
+</body>
+</html>
